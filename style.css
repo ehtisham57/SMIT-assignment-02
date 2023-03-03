@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+nav{
+    padding: 10px !important;
+}
+.nav{
+    background-color: rgb(54,53,67) !important;
+}
+.logo{
+    color: #ffffff;
+    margin: 0px 60px !important;
+}
+.logo:hover{
+    color: rgb(254,186,24);
+    transition: all .6s;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color:#919191 ;
+    list-style-type: none;
+    margin: 0px 20px;
+    user-select: none;
+}
+.nav-ul li .active,.nav-ul li a:hover, .active{
+    color: #ffffff;
+    
+    border-bottom: 5px rgb(254,186,24) solid;
+}
+.icon{
+    padding: 0 50px;
+}
+.icon img{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.icon img:hover{
+    color: rgb(254,186,24);
+}
+
+/* main Section */
+
+.main{
+    background: rgb(54,53,67);
+    min-height: 600px;
+    color: #ffffff;
+    padding: 20px;
+    z-index: 1;
+}
+.main>div{
+    padding:0px  50px;
+}
+
+/* Name Heading Container */
+.heading{
+    padding: 20px;
+}
+.name-head{
+    font-size: 60px;
+    color: #919191;
+}
+.name-heading{
+    margin: 10px 0;
+}
+.name-heading>h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    z-index: 10000 !important;
+}
+.line-border{
+    width:70%;
+    border: solid rgb(254,186,24) ;
+    margin: 20px 0;
+}
+.paraname{
+    font-size: 18px;
+    color: #919191;
+    line-height: 20px;
+}
+
+/* image portfolio */
+.image{
+    margin-top: 100px;
+   
+}
+.imagebg img{
+    
+    background: rgb(45,45,57);
+  min-width: 500px;
+  min-height: 500px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* rightbox */
+.rightbox{
+    margin: 50px 0;
+    padding: 25px;
+}
+.mainright{
+    padding-top: 10px;
+}
+.mainright > h3{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.mainright >p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mainright > button{
+    color: rgb(254,186,24);
+    border: none !important;
+    background: transparent;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.mainright > button >img{
+    padding-left: 15px;
+}
+.icons{
+    padding: 20px 0;
+}
+.icons img{
+    background-color: #464646;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.barline{
+    z-index: 1 !important;
+    padding:50px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    background: rgb(64,63,78);
+}
+.barline-element{
+    padding:0 50px;
+    justify-content: space-between;
+    /* padding: 0 50px; */
+}
+.barline-element >div{
+    background: rgb(45, 44, 57);
+    padding: 0 30px;
+    margin: 30px;
+    font-size: 35px;
+}
+
+/* section-2 */
+.section-2{
+    min-height: 500px;
+    background:  rgb(40,40,52);
+    color: #ffffff;
+
+}
+
+.card-style{
+    background: none !important;
+    max-width: 550px;
+    margin-top: 50px;
+    
+}
+.card-image{
+    min-width: 100px;
+    max-width: 250px;
+}
+.cardTitle{
+    padding: 0 25px;
+}
+.cardArrow >img{
+    height: 30px;
+    width: 30px;
+    margin-left: 9px;
+    margin-bottom: -65px;
+    opacity: 70%;
+}
+.line{
+    padding:0 50px;
+    height: 1px;
+    width: 100%;
+    background-color: #8c8b99;
+    margin-top: 20px;
+   
+}
+.sec2-right{
+    padding: 0 50px;
+}
+.sec2-right > h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.sec2-right > p{
+    padding: 20px 0;
+    color: #8c8b99;
+    font-size: 15px;
+    line-height: 16px;
+}
+.highligt-box{
+    padding: 35px 0;
+}
+.highligt-box > h1{
+    color: rgb(241,190,61);
+    font-size: 35px;
+    line-height: 2px;
+}
+.highligt-box>p{
+    color: #8c8b99;
+    font-size: 15px;
+    line-height: 2px;
+}
+.footer{
+    background-color: rgb(40,40,52) !important;
+}
+.frow{
+    padding: 50px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fcard{
+    background-color: rgb(64,63,81) !important;
+    padding: 25px;
+}
+.fcard h5{
+    color: #cac9c9;
+   font-size: 25px;
+   font-weight: bold;
+}
+.fcard p{
+    color: #8c8b99;
+   font-size: 15px;
+   font-weight: 600;
+   padding-right: 25px;
+   padding-top: 20px;
+   line-height: 18px;
+}
+
+.biconimage{
+    width: 50px !important;
+    height:50px !important;
+    background-color: #4e4e4e;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:900px) {
+    
+    .imagebg img{
+      max-width: 400px;
+      max-height:400px;
+    min-width: 300px;
+    min-height: 300px;
+    }
+    .name-heading>h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+    .imagebg img{
+      max-width: 400px;
+      max-height:400px;
+    min-width: 250px;
+    min-height: 250px;
+    }
+    
+}
